@@ -38,7 +38,7 @@ h1 {
   margin-bottom: 40px;
 }
 
-p {
+.text {
   font-size: 14px;
   font-family: "lights";
   margin-top: 40px;
@@ -99,19 +99,15 @@ iframe {
   font-family: roman;
 }
 
-.tel-email {
+.tel-email, .made {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+    font-size: 13px;
+    font-family: "roman";
 }
 
-.made {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-}
 
 .end {
     display: flex;
@@ -119,4 +115,6 @@ iframe {
     justify-content: center;
     flex-direction: column;
     gap: 30px;
+    font-size: 13px;
+    font-family: "roman";
 }
