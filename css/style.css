@@ -42,30 +42,65 @@ p {
   font-size: 14px;
   font-family: "lights";
   margin-top: 40px;
-  
 }
 
-button {
+.button1 {
   width: 334px;
   height: 56px;
   background-color: #0a22f4;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 28px;
   margin-top: 12px;
   margin-bottom: 40px;
+  font-size: 13px;
+  font-family: roman;
 }
 
 .contact {
-    max-width: 1200px;
-    background-color: #0a22f4;
-    display: flex;
-    flex-direction: column;
-    color: #FFFFFF;
-    gap: 40px;
-    padding: 20px;
+  max-width: 1200px;
+  background-color: #0a22f4;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  gap: 40px;
+  padding: 20px;
 }
 
+h2 {
+    font-size: 18px;
+    font-family: "roman";
+}
+
+label {
+    font-size: 13px;
+    font-family: "roman";
+}
+
+input[type=text], input[type=email], input[type=tel] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: #0a22f4;
+    font-family: "lights";
+  }
+
 iframe {
-    width: 334px;
-height: 180px;
+  width: 334px;
+  height: 180px;
+  border-radius: 15px;
+}
+
+.button2 {
+  width: 334px;
+  height: 56px;
+  background-color: #ffffff;
+  color: #171717;
+  border-radius: 28px;
+  font-size: 13px;
+  font-family: roman;
+}
+
+.tel-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
