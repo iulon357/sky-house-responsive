@@ -6,3 +6,11 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: #0A22F4;
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
